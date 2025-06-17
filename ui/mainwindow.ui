@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <widget class="QWidget" name="tabOverview">
+       <attribute name="title">
+        <string>Overview</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tabFileScan">
+       <attribute name="title">
+        <string>File Scan</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayoutFile">
+        <item>
+         <widget class="QPushButton" name="scanFilesButton">
+          <property name="text">
+           <string>Сканировать файлы</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QProgressBar" name="fileProgressBar"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="cancelFileScanButton">
+          <property name="text">
+           <string>Отмена</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableFiles">
+          <column>
+           <property name="text">
+            <string>Путь</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Название чита</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabProcessScan">
+       <attribute name="title">
+        <string>Process Scan</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayoutProcess">
+        <item>
+         <widget class="QPushButton" name="scanProcessesButton">
+          <property name="text">
+           <string>Сканировать процессы</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableProcesses">
+          <column>
+           <property name="text">
+            <string>PID</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Имя процесса</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabMemoryScan">
+       <attribute name="title">
+        <string>Memory Scan</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayoutMemory">
+        <item>
+         <widget class="QPushButton" name="scanMemoryButton">
+          <property name="text">
+           <string>Сканировать память</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableMemory">
+          <column>
+           <property name="text">
+            <string>Адрес</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Название чита</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabSettings">
+       <attribute name="title">
+        <string>Settings</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayoutSettings"/>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

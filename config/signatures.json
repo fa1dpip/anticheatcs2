@@ -1,0 +1,24 @@
+{
+  "process_names": [
+    "cheatengine.exe", "aimbot.exe", "cs2hack.exe", "wallhack.exe",
+    "iniuria.exe", "aimware.dll", "neverlose.dll", "neverlose.exe",
+    "gamesense cracked.exe", "fecurity.exe", "primordial.dll",
+    "midnight.exe", "interwebz.exe", "otv3.dll", "onetap.dll",
+    "nixware.dll", "fatality.exe", "plague.dll", "oxide.exe",
+    "fantasy.exe", "phantomoverlayloader.exe", "clutch.exe",
+    "nightfall.exe", "kernaim.exe", "satan5.exe", "cartel.exe",
+    "scriptersrift.dll", "memesense.dll"
+  ],
+  "file_hashes": {
+    "d41d8cd98f00b204e9800998ecf8427e": "ExampleCheat",
+    "6e3293bb4d8fbb87f9485da9875aee45": "Primordial",
+    "d6f07b2df0bd08aeca44b6aa714a3f6b": "Fecurity",
+    "4e5bcdd4a99b77c6e5cde337508c2019": "Primordial_DLL",
+    "d2901c7724d3a55d168f10f21b9e7393": "CS2-Cheats.pro_v2.3",
+    "a9d7c3f8b8b82e01f9e56c3d4ca1cc10": "AimbotPro",
+    "0e339b253f3d32c0d3af65bb9a9853d8": "WallHackX"
+  },
+  "memory_signatures": {
+    "666f6f626172": "ExampleMemoryCheat"
+  }
+}
